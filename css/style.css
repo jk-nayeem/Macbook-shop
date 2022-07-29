@@ -1,0 +1,17 @@
+.left {
+    width: 45%;
+}
+
+.left img {
+    height: 400px;
+    width: 400px;
+}
+
+.right {
+    width: 55%;
+}
+
+#cupon {
+    background-color: #DC3545;
+    color: white;
+}

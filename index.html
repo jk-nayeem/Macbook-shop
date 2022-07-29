@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangla Mac Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="upper d-flex justify-content-around pe-4">
+            <div class="left d-flex justify-content-center">
+                <img src="images/mac.png" alt="Photo">
+
+            </div>
+            <div class="right">
+                <h2>Customize your Blue 24-Inch iMac with apple M1 Chip</h2>
+                <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+                    16-core Neural Engine 8GB unified memory 256GB SSD storage Two thunderbolt / USB 4 ports Magic Mouse
+                    Magic keyboard - US English</p>
+
+                <h6 class="fw-bold mt-5">Memory</h6>
+                <button type="button" id="basic-memory" class="btn border border-2">8GB unified memory</button>
+                <button type="button" id="extend-memory" class="btn border border-2">16GB unified memory</button>
+
+                <h6 class="fw-bold mt-4">Storage</h6>
+                <button type="button" id="basic-storage" class="btn border border-2">256GB SSD storage</button>
+                <button type="button" id="mid-storage" class="btn border border-2">512GB SSD storage</button>
+                <button type="button" id="max-storage" class="btn border border-2">1TB SSD storage</button>
+
+                <h6 class="fw-bold mt-4">Choose your Delivery Option</h6>
+                <button type="button" id="basic-delivery" class="btn border border-2">Friday, 25 Aug FREE prime delivery</button>
+                <button type="button" id="special-delivery" class="btn border border-2">Monday, 21 Aug Delivery Charge $20</button>
+
+
+                <table class="table w-50 mt-5">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Best Price</th>
+                            <td><b>$</b><span class="fw-bold">1299</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Extra Memory Cost</th>
+                            <td><b>$</b><span id="memory-price" class="fw-bold">0</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Extra Storage Cost</th>
+                            <td><b>$</b><span id="storage-price" class="fw-bold">0</span></td>
+                        </tr>
+                        <tr class="border border-bottom-0 border-start-0 border-end-0">
+                            <th scope="row">Delivery Charge</th>
+                            <td><b>$</b><span id="delivery-charge" class="fw-bold">0</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Total Price</th>
+                            <td><b>$</b><span id="total-price" class="fw-bold">1299</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="fw-normal border border-0">Add Promo Code</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="d-flex border border-0"><input type="text" id="cupon-code"><button type="button" id="cupon" class="btn">Apply</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <h2 class="text-center">Total : $<span id="all-total-price">1299</span></h2>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
